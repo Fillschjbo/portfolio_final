@@ -1,0 +1,7 @@
+{
+  "name": "portfolio_final",
+  "version": "1.0.0",
+  "dependencies": {
+    "three": "^0.165.0"
+  }
+}
