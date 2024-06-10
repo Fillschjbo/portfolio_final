@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fillip Husebø | Home</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="homepage_style.css" type="text/css">
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6a960ad6ac.js" crossorigin="anonymous"></script>
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://unpkg.com/three@v0.163.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@v0.163.0/examples/jsm/"
+          }
+        }
+    </script>
+    <script type="module" src="JS/threeJs.js" defer></script>
+    <script src="JS/app.js" defer></script>
+</head>
+<body class="body">
+    <header>
+        <div class="headerWrapper">
+            <h2 class="h2 logo">FiHu</h2>
+            <div class="rightSide">
+                <a href="#about" class="h2 headerLink">About Me</a>
+                <a href="https://github.com/Fillschjbo" class="h2 headerLink">GitHub</a>
+                <a href="#contact" class="h2 headerLink">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <div id="progress-container" class="backgroundColor">
+        <div id="progress">Loading element...</div>
+    </div>
+
+    <div class="featured backgroundColor">
+        <h2 class="h2 projects">Featured Projects</h2>
+
+        <div class="cardWrapper">
+            <div class="projectCard">
+                <img src="assets/Screenshot%202024-06-10%20at%2014.13.06.png" alt="">
+                <div class="textWrapper">
+                    <div class="title">Visionarium</div>
+                    <div class="description">Semester Project showing off HTML and CSS skills</div>
+                    <ul>
+                        <li class="gitHub">GitHub: <a href="https://github.com/Fillschjbo/semester-project-fillip">https://github.com/Fillschjbo/semester-project-fillip</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="projectCard yeager">
+                <img src="assets/Screenshot%202024-06-10%20at%2014.09.30.png" alt="">
+                <div class="textWrapper">
+                    <div class="title">Yeager</div>
+                    <div class="description">Exam showing of Javascript HTML and CSS skills</div>
+                    <ul>
+                        <li class="gitHub">GitHub: <a href="https://github.com/Fillschjbo/PE1-Fillip">https://github.com/Fillschjbo/PE1-Fillip</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="projectCard">
+                <img src="assets/Screenshot%202024-06-10%20at%2014.11.09.png" alt="">
+                <div class="textWrapper">
+                    <div class="title">Quizzical</div>
+                    <div class="description">Agency Project where we worked as groups and learned agile development</div>
+                    <ul>
+                        <li class="gitHub">GitHub: <a href="https://github.com/IngridOrnum/quizaholics">https://github.com/IngridOrnum/quizaholics</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="about backgroundColor" id="about">
+            <h2 class="h2 projects">About Me</h2>
+            <div class="text">Hello! My name is Fillip and I am a front-end development student at Noroff. I'm passionate about developing websites and have spent the last year learning HTML, CSS, and Javascript.<br>
+                <br>
+                At Noroff I have had the opportunity to work on several different projects, and have gained experience in website development. I thrive on challenging myself and always seek opportunities to learn new skills and improve my coding.<br>
+                <br>
+                In my spare time, I enjoy working out. I'm always interested in learning about new projects and opportunities, so feel free to get in touch with me!</div>
+        </div>
+
+        <div id="contact" class="contact">
+            <h2 class="h2 projects">Contact</h2>
+            <div class="icons">
+                <h2 class="h2 phone contactMe">☎︎</h2>
+                <h2 class="h2  mail contactMe"><i class="fa-solid fa-envelope"></i></h2>
+                <h2 class="h2 github contactMe"><i class="fa-brands fa-github"></i></h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
